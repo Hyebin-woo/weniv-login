@@ -1,0 +1,87 @@
+* {
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #767676;
+}
+
+button {
+  border: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Design*/
+.center_box {
+  width: 350px;
+  height: 140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.welcome {
+  position: absolute;
+  width: 215px;
+  height: 15px;
+  left: 16px;
+  top: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.btn_login {
+  position: absolute;
+  width: 318px;
+  height: 40px;
+  left: 16px;
+  top: 50px;
+  background: #711bff;
+  border-radius: 4px;
+  line-height: 20px;
+  color: white;
+  cursor: pointer;
+}
+.btn_logo {
+  width: 64px;
+  height: 18px;
+  vertical-align: -3px;
+  margin-right: 4px;
+}
+
+.footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.footer img {
+  width: 15px;
+  vertical-align: bottom;
+}
+
+.search_idpw {
+  margin-left: 18px;
+  /* float: left; */
+}
+
+.join_signup {
+  margin-right: 20px;
+  /* float: right; */
+}
